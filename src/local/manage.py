@@ -1,1 +1,0 @@
-/home/mebin/projects/django/src/manage.py
