@@ -1,3 +1,9 @@
-<h1>Hello World!!.. This is Aboutus</h1>
+{% extends 'base.html' %}
+{% block content %}
+	
+<h1>Hello World!!.. This is About us</h1>
 {{ request.user }}
-<p>Just a Para</p>
+<p>
+	{{ my_tittle }}, {{ my_number }}
+</p>
+{% endblock content %}
